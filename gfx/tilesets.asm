@@ -188,15 +188,6 @@ INCLUDE "data/tilesets/underground_collision.asm"
 TilesetDarkCaveGFX::
 INCBIN "gfx/tilesets/dark_cave.2bpp.lz"
 
-UnusedTilesetJohtoMeta:: ; unreferenced
-INCBIN "data/tilesets/unused_johto_metatiles.bin"
-
-UnusedTilesetJohtoColl:: ; unreferenced
-INCLUDE "data/tilesets/unused_johto_collision.asm"
-
-
-SECTION "Tileset Data 5", ROMX
-
 TilesetPokeComCenterGFX::
 INCBIN "gfx/tilesets/pokecom_center.2bpp.lz"
 
@@ -205,6 +196,9 @@ INCBIN "data/tilesets/pokecom_center_metatiles.bin"
 
 TilesetPokeComCenterColl::
 INCLUDE "data/tilesets/pokecom_center_collision.asm"
+
+
+SECTION "Tileset Data 5", ROMX
 
 TilesetBattleTowerInsideGFX::
 INCBIN "gfx/tilesets/battle_tower_inside.2bpp.lz"
